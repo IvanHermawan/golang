@@ -32,4 +32,17 @@ func main() {
 
 	fmt.Println(firstname)
 	fmt.Println(lastname)
+
+	//tipe data constant
+	//const kota = "Bekasi"
+	//const provinsi = "Jawa Barat"
+	//const nomorrumah = 145
+	const (
+		kota       = "Bekasi"
+		provinsi   = "Jawa Barat"
+		nomorrumah = 145
+	)
+
+	fmt.Println(kota)
+
 }
